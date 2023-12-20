@@ -1,0 +1,96 @@
+header {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 10px 19px -12px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 10px 19px -12px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 19px -12px rgba(0, 0, 0, 0.2);
+
+    .head-container {
+        width: 1152px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0 25px 0;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 40px;
+                margin-top: 10px;
+                margin-right: 5px;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 2.2vw;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+        }
+
+        .theme{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            cursor: pointer;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            p{
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    header{
+        height: 60px;
+        .head-container{
+            width: 80%;
+            .logo{
+                img{
+                    width: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    header{
+        height: 60px;
+        .head-container{
+            width: 95%;
+            .logo{
+                img{
+                    width: 30px;
+                }
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    .theme{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        cursor: pointer;
+        img{
+            width: 20px;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}
