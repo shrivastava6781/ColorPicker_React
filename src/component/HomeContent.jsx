@@ -160,7 +160,7 @@ const HomeContent = () => {
                                 <label htmlFor="Imgfile">Upload Image</label>
                             </button>
                             <input type="file" name="file" id="Imgfile" onChange={getFile} />
-                            <p>We understand that your privacy is important. That's why <span className="pink">No data sent to our database.</span> It's all magic of Browser.</p>
+                            <p>Upload an image, <span className="pink"> hover over to select colors,</span> and easily copy the color code you prefer while using the mouse.</p>
                         </div>
                     </div>
                 </div>
